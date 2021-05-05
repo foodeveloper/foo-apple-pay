@@ -18,9 +18,11 @@ NS_ASSUME_NONNULL_BEGIN
 + (nullable NSArray <PKPass *>*)getLocalPasses;
 + (nullable NSArray <PKPaymentPass *>*)getRemotePasses;
 
-+ (BOOL)canAddCardWithId:(NSString *)cardId;
-+ (BOOL)cardAlreadyAddedToLocalWallet:(NSString *)cardId;
-+ (BOOL)cardAlreadyAddedToRemoteWallet:(NSString *)cardId;
++ (BOOL)isCardAddedToLocalWalletWithCardSuffix:(NSString *)cardSuffix;
++ (BOOL)isCardAddedToRemoteWalletWithCardSuffix:(NSString *)cardSuffix;
+
++ (BOOL)isCardAddedToLocalWalletWithPrimaryAccountIdentifier:(NSString *)primaryAccountIdentifier;
++ (BOOL)isCardAddedToRemoteWalletWithPrimaryAccountIdentifier:(NSString *)primaryAccountIdentifier;
 
 + (void)addCardForUserId:(nullable NSString *)userId cardId:(NSString *)cardId cardHolderName:(NSString *)cardHolderName cardPanSuffix:(NSString *)cardPanSuffix localizedDescription:(nullable NSString *)localizedDescription inViewController:(UIViewController *)viewController delegate:(id <FOInAppProtocol>)delegate;
 
