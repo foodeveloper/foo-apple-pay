@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/FOInAppProvisioning.h</key>
 		<data>
-		6wPJ2Sudxva/p5h33C6ssogPg2c=
+		XfXn940bgjVVeFl3+plngQDz//Y=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>PrivateHeaders/FOInAppConstants.h</key>
 		<data>
-		+TEMGHkG+wNXjTA49Ci3xJ7/HC8=
+		XmMZCfyyn4YvpDuzc2Va68IthaY=
 		</data>
 		<key>PrivateHeaders/FOInAppDictionaryVerified.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>PrivateHeaders/FOInAppRequest.h</key>
 		<data>
-		O+JuyYeI2rHXodjNtl1eUljb7IM=
+		AR0ZhbZZAYXsryll5SG9/Uwsbb8=
 		</data>
 		<key>PrivateHeaders/FOInAppResponseMetadata.h</key>
 		<data>
@@ -91,6 +91,14 @@
 		<key>PrivateHeaders/FOInAppStringUtils.h</key>
 		<data>
 		IO8eb/ju/y2ZeC+UxSWYCUo7b5w=
+		</data>
+		<key>PrivateHeaders/FOInAppVerificationManager.h</key>
+		<data>
+		oTsHRt6ta+4Ib7NHrIZPf80VP4E=
+		</data>
+		<key>PrivateHeaders/FOInAppVerificationResponse.h</key>
+		<data>
+		zshXKPsws3+aAw6BkYrpnMubXek=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -113,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2wSS6b43LlmJxaNAhzcA/igxQkc0LWbEEPY/frfHuCI=
+			FN70F1kZH0TRJs9p97vCweDqVofOGy3yBDqVWzGc7B0=
 			</data>
 		</dict>
 		<key>PrivateHeaders/FOAppleWalletManager.h</key>
@@ -141,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oyo+DXYSmRoo84eGe54wcDSYbVHOUr8X1agCwuH7EvU=
+			oRBsAPkeFO7CEVeESW+019b5t/ya0s8ZjQD2Oepmo98=
 			</data>
 		</dict>
 		<key>PrivateHeaders/FOInAppDictionaryVerified.h</key>
@@ -225,7 +233,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3IUzcX/QmA+Bfwu+9pEvH4BPB09s3AZg2Lu74AqSHUY=
+			6V4Dp2CnrmBhsqLbfxMlhb5+oRVHrT/BMZp3GA1B+Fs=
 			</data>
 		</dict>
 		<key>PrivateHeaders/FOInAppResponseMetadata.h</key>
@@ -240,6 +248,20 @@
 			<key>hash2</key>
 			<data>
 			YTaJlLtrdAVOYG5eX6I6SlnK2btsbuMRNUlox7VeX4U=
+			</data>
+		</dict>
+		<key>PrivateHeaders/FOInAppVerificationManager.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			akBDHTq1wF2CyH2l+iLHwU+n2NEouMuqBDJYynE34hU=
+			</data>
+		</dict>
+		<key>PrivateHeaders/FOInAppVerificationResponse.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pUmMCrhRuBZIwqzL3rMR2/w6zYoYhGzzkGMQMDbnOtI=
 			</data>
 		</dict>
 	</dict>
