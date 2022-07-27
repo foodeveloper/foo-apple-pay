@@ -28,6 +28,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)addCardForUserId:(nullable NSString *)userId cardId:(NSString *)cardId cardHolderName:(NSString *)cardHolderName cardPanSuffix:(NSString *)cardPanSuffix localizedDescription:(nullable NSString *)localizedDescription pan:(NSString *)pan expiryDate:(NSString *)expiryDate inViewController:(UIViewController *)viewController delegate:(id <FOInAppProtocol>)delegate;
 
++ (void)addCardForUserId:(nullable NSString *)userId cardId:(NSString *)cardId fPAN:(NSString *)fPan cardHolderName:(NSString *)cardHolderName cardPanSuffix:(NSString *)cardPanSuffix localizedDescription:(nullable NSString *)localizedDescription inViewController:(UIViewController *)viewController delegate:(id <FOInAppProtocol>)delegate;
+
++ (void)addCardForUserId:(nullable NSString *)userId cardId:(NSString *)cardId fPAN:(NSString *)fPan cardHolderName:(NSString *)cardHolderName cardPanSuffix:(NSString *)cardPanSuffix localizedDescription:(nullable NSString *)localizedDescription pan:(NSString *)pan expiryDate:(NSString *)expiryDate inViewController:(UIViewController *)viewController delegate:(id <FOInAppProtocol>)delegate;
+
 + (void)activateLocalCardWithCardSuffix:(NSString *)cardSuffix cardId:(NSString *)cardId cardHolderName:(nullable NSString *)cardHolderName withCompletionHandler:(void (^)(BOOL success))completionHandler;
 
 + (void)activateRemoteCardWithCardSuffix:(NSString *)cardSuffix cardId:(NSString *)cardId cardHolderName:(nullable NSString *)cardHolderName withCompletionHandler:(void (^)(BOOL success))completionHandler;
