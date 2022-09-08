@@ -13,7 +13,7 @@
 #import "FOAppleWallet.h"
 #import "FOInAppProtocol.h"
 #import "FOInAppProvisioning.h"
-#import "PKPassHelper.h"
+#import "FOInAppVerificationCard.h"
 #import "PKPaymentPassHelper.h"
 
 FOUNDATION_EXPORT double FooAppleWalletVersionNumber;
