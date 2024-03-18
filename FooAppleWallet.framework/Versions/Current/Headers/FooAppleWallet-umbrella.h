@@ -11,6 +11,8 @@
 #endif
 
 #import "FOAppleWallet.h"
+#import "FOAppleWalletExtension.h"
+#import "FOCard.h"
 #import "FOInAppProtocol.h"
 #import "FOInAppProvisioning.h"
 #import "FOInAppVerificationCard.h"
