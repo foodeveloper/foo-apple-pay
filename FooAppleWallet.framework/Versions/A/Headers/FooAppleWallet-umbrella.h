@@ -14,6 +14,7 @@
 #import "FOAppleWalletExtension.h"
 #import "FOCard.h"
 #import "FOInAppProtocol.h"
+#import "FOInAppProvCardType.h"
 #import "FOInAppProvisioning.h"
 #import "FOInAppVerificationCard.h"
 #import "PKPaymentPassHelper.h"
