@@ -9,6 +9,7 @@
 #import "FOInAppPublicKeyResponse.h"
 #import "FOInAppProvisionDataResponse.h"
 #import "FOInAppVerificationResponse.h"
+#import "FOInAppProvCard.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -37,6 +38,8 @@ typedef enum {
 + (void)createInAppProvisioningDataWithCardId:(NSDictionary *)params withCompletionHandler:(void (^)(FOInAppProvisionDataResponse *response, FOInAppResponseErrorType errorType))completionHandler;
 
 + (void)createInAppVerificationDataWithCardId:(NSDictionary *)params withCompletionHandler:(void (^)(FOInAppVerificationResponse *response, FOInAppResponseErrorType errorType))completionHandler;
+
++ (void)updateTransactionStatus:(FOTransactionStatus)status transactionId:(NSString *)transactionId withCompletionHandler:(void (^ __nullable)(FOInAppBaseResponse *response, FOInAppResponseErrorType errorType))completionHandler;
 
 + (void)reportError:(NSString *)errorString logs:(NSString *)logs withCompletionHandler:(void (^ __nullable)(FOInAppBaseResponse *response, FOInAppResponseErrorType errorType))completionHandler;
 

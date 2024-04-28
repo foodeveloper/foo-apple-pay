@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) NSString *ephemralPublicKey;
 @property (strong, nonatomic) NSString *encryptedPassData;
 @property (strong, nonatomic) NSString *activationData;
+@property (strong, nonatomic) NSString *transactionId;
 
 @end
 

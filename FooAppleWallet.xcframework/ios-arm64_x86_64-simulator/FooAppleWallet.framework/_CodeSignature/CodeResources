@@ -4,25 +4,57 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/FOAppleWallet-Umberlla.h</key>
+		<data>
+		WQHFV6jKrkxVRkDqWdMpygoxfQE=
+		</data>
 		<key>Headers/FOAppleWallet.h</key>
 		<data>
-		qRlkuM6G8xTNLtn0cG+OUp06Kmk=
+		UO0pVN5/4AGGVrUjjrPgisWwc+0=
+		</data>
+		<key>Headers/FOAppleWalletExtension.h</key>
+		<data>
+		lv7GGlTsqQSmNGFzpUFhpeR9TPg=
+		</data>
+		<key>Headers/FOCard.h</key>
+		<data>
+		LlHbBprJs5K4BlDEa33fsww343o=
+		</data>
+		<key>Headers/FOInAppJWE.h</key>
+		<data>
+		XzkEtICIsxjZ06H5fBgNsVApUWI=
 		</data>
 		<key>Headers/FOInAppProtocol.h</key>
 		<data>
 		t96O8/iJSIAUE38GPjgneRVx6+4=
 		</data>
+		<key>Headers/FOInAppProvCardType.h</key>
+		<data>
+		1mXN7AfQH/ktuanKVK5EmxYyeR4=
+		</data>
 		<key>Headers/FOInAppProvisioning.h</key>
 		<data>
-		XfXn940bgjVVeFl3+plngQDz//Y=
+		kyp83KK+boQGEPzuPPPwHn81rY4=
+		</data>
+		<key>Headers/FOInAppVerificationCard.h</key>
+		<data>
+		i0vDlKL16ZZJoRb9HVm7Lt9iQE0=
+		</data>
+		<key>Headers/PKPaymentPassHelper.h</key>
+		<data>
+		7WjPztTi9XmSBVOYBxZTMWrSZuQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nVYlqf6kH87Wf/YRSm8Oy/xSCd4=
+		9UDTFZbB+nYq1paJhYTkh/L42Fc=
+		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		mMx513bKG2mbaxxehIQrNsxErnw=
 		</data>
 		<key>PrivateHeaders/FOAppleWalletManager.h</key>
 		<data>
-		OFe4f/PYf+6HvsY5yUQc83Kurrs=
+		RdbMng1fFGcHvgp6/bvrZYvmpR4=
 		</data>
 		<key>PrivateHeaders/FOInAppBase64.h</key>
 		<data>
@@ -34,7 +66,7 @@
 		</data>
 		<key>PrivateHeaders/FOInAppConstants.h</key>
 		<data>
-		XmMZCfyyn4YvpDuzc2Va68IthaY=
+		mU/qsYazNQk8QFKdS8cZEUUvv64=
 		</data>
 		<key>PrivateHeaders/FOInAppDictionaryVerified.h</key>
 		<data>
@@ -43,10 +75,6 @@
 		<key>PrivateHeaders/FOInAppEncryption.h</key>
 		<data>
 		JQv9lB7F0W+71XN29R2oAJY0Ifw=
-		</data>
-		<key>PrivateHeaders/FOInAppJWE.h</key>
-		<data>
-		XzkEtICIsxjZ06H5fBgNsVApUWI=
 		</data>
 		<key>PrivateHeaders/FOInAppJsonHelper.h</key>
 		<data>
@@ -66,15 +94,19 @@
 		</data>
 		<key>PrivateHeaders/FOInAppProvCard.h</key>
 		<data>
-		7QlFx6SyYgC88GHIbeuMMFnpOs8=
+		Tarp7J6YW77gDPCLbdvjJFC8g6M=
 		</data>
 		<key>PrivateHeaders/FOInAppProvisionDataResponse.h</key>
 		<data>
-		YKaQFBeopT/48cEeIQS93MyrPjA=
+		xofZFVCN5xXPHJ1kiWPne8j7I+w=
 		</data>
 		<key>PrivateHeaders/FOInAppProvisioningManager.h</key>
 		<data>
 		AGlQZ5Dd+jqEvIO17ZPySL+ocGQ=
+		</data>
+		<key>PrivateHeaders/FOInAppProvisioningUtils.h</key>
+		<data>
+		rvW/oTQjih6RkQO/YJsajbV8ASU=
 		</data>
 		<key>PrivateHeaders/FOInAppPublicKeyResponse.h</key>
 		<data>
@@ -82,7 +114,7 @@
 		</data>
 		<key>PrivateHeaders/FOInAppRequest.h</key>
 		<data>
-		AR0ZhbZZAYXsryll5SG9/Uwsbb8=
+		1rJIsXQFKtAcGg0GOteRiM3ISFY=
 		</data>
 		<key>PrivateHeaders/FOInAppResponseMetadata.h</key>
 		<data>
@@ -103,11 +135,39 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/FOAppleWallet-Umberlla.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jnzRoaz61P0zbkxidiaIYWTfW0vGNtGvaHcSO4moJEk=
+			</data>
+		</dict>
 		<key>Headers/FOAppleWallet.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5x2UFBTqg9JM4IILghp89x3m5fy7jU0f94Ngsqg7ldo=
+			K9B6fwEIyRjAOEH8IK1A4rl/1uQnFH3k/+UpJqNm1IY=
+			</data>
+		</dict>
+		<key>Headers/FOAppleWalletExtension.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3ST3QbQtaZBfIxSHVN0hiz0BogXHsXJ7jxNO7V8/JWY=
+			</data>
+		</dict>
+		<key>Headers/FOCard.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5f7qoXVeGRap3XH4gSrBTS2gmbZoyjOjdxrOaUbobeQ=
+			</data>
+		</dict>
+		<key>Headers/FOInAppJWE.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/GutnfjjS79/cRWolwh4OgIXwumAzojjvg3ock3Ane8=
 			</data>
 		</dict>
 		<key>Headers/FOInAppProtocol.h</key>
@@ -117,18 +177,46 @@
 			fZcUHrf5hi3B7IReEd/Dl/fahgrmUU64HElW6+MIQI4=
 			</data>
 		</dict>
+		<key>Headers/FOInAppProvCardType.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			R/g0JwYZC+ssktzVbeVJ4bZoy4PJScMZytFvsAnij74=
+			</data>
+		</dict>
 		<key>Headers/FOInAppProvisioning.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FN70F1kZH0TRJs9p97vCweDqVofOGy3yBDqVWzGc7B0=
+			mMQAtRKb45baS/GIIz+L2xRrBKUn9f7K2ZwMIMI3i/M=
+			</data>
+		</dict>
+		<key>Headers/FOInAppVerificationCard.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			S2/vh5C/yagN8KG51jdbV/72yMlwgSihN4iDPVF9zJQ=
+			</data>
+		</dict>
+		<key>Headers/PKPaymentPassHelper.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tLRI3BL+wXJCGffAFbkQ7xEzjw1/Ohhas4WmYiClt3o=
+			</data>
+		</dict>
+		<key>Modules/module.modulemap</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			I2eHle2IF0r8I1M79tykvIZszcv1P8fRUGZ9KUs2wIs=
 			</data>
 		</dict>
 		<key>PrivateHeaders/FOAppleWalletManager.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xtaZD/UH7cQbML3aMLLYkhq8tSQhxkQlbvI2XWrP8/s=
+			64LL4s0ON8I3Cn1+bT4GxYw9F+QAO+XC/7+wYzo/B3Y=
 			</data>
 		</dict>
 		<key>PrivateHeaders/FOInAppBase64.h</key>
@@ -149,7 +237,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oRBsAPkeFO7CEVeESW+019b5t/ya0s8ZjQD2Oepmo98=
+			oUnrXiuIkjBJRjmzD8BxszNDxnj6/RHJNFNB8z7jmZk=
 			</data>
 		</dict>
 		<key>PrivateHeaders/FOInAppDictionaryVerified.h</key>
@@ -164,13 +252,6 @@
 			<key>hash2</key>
 			<data>
 			xCxeL7aziLtclSrVu3vLoJtcH9omh9uRJNFWd5+NrKk=
-			</data>
-		</dict>
-		<key>PrivateHeaders/FOInAppJWE.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/GutnfjjS79/cRWolwh4OgIXwumAzojjvg3ock3Ane8=
 			</data>
 		</dict>
 		<key>PrivateHeaders/FOInAppJsonHelper.h</key>
@@ -205,14 +286,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5rFfkG8arsbd35o65fC5XH7HBi1BF0B1G2oRhsQeHTw=
+			8Bg+EksjfjHXG/ujeh18tmkbaZvHOQG262mzjXNrzjA=
 			</data>
 		</dict>
 		<key>PrivateHeaders/FOInAppProvisionDataResponse.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4gLXb8d/CJAu6+3vTr2wXMPm9Xd9mM7d9L9kzgO4PsU=
+			bepygtZmwV8vkfrepSUNltgP3uVQXew2Uj31haEPhQ4=
 			</data>
 		</dict>
 		<key>PrivateHeaders/FOInAppProvisioningManager.h</key>
@@ -220,6 +301,13 @@
 			<key>hash2</key>
 			<data>
 			f5Z0/no11G6AIULnCsUm/YZROPL24qsD+kPDm/ezgj0=
+			</data>
+		</dict>
+		<key>PrivateHeaders/FOInAppProvisioningUtils.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gMiPv7si6LlOfluNy+Boeiy6bLZXNnjRHDBylRVjAlY=
 			</data>
 		</dict>
 		<key>PrivateHeaders/FOInAppPublicKeyResponse.h</key>
@@ -233,7 +321,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6V4Dp2CnrmBhsqLbfxMlhb5+oRVHrT/BMZp3GA1B+Fs=
+			go8xPJp6N/oMMwh+4PWRue1zps9cD52dL4jAo1r7DGY=
 			</data>
 		</dict>
 		<key>PrivateHeaders/FOInAppResponseMetadata.h</key>

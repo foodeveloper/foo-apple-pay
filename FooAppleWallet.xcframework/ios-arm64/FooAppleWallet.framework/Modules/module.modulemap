@@ -1,0 +1,13 @@
+//
+//  module.map.modulemap
+//  FooAppleWallet
+//
+//  Created by Charbel Hasrouni on 25/04/2024.
+//
+
+framework module FooAppleWallet {
+    umbrella header "FOAppleWallet-Umberlla.h"
+    
+    export *
+    module * { export * }
+}
