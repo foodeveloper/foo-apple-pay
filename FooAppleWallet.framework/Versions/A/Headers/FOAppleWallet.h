@@ -22,6 +22,12 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)setExtensionHasAvailableLocalPasses:(bool)extensionHasAvailableLocalPasses;
 + (void)setExtensionHasAvailableRemotePasses:(bool)extensionHasAvailableRemotePasses;
 
+// React plugin helpers.
++ (void)setWalletExtensionLocalPluginCompletion:(void (^)(NSArray<FOCard *> * _Nonnull))localCompletion;
++ (void (^)(NSArray<FOCard *> * _Nonnull))getWalletExtensionLocalPluginCompletion;
++ (void)setWalletExtensionRemotePluginCompletion:(void (^)(NSArray<FOCard *> * _Nonnull))remoteCompletion;
++ (void (^)(NSArray<FOCard *> * _Nonnull))getWalletExtensionRemotePluginCompletion;
+
 @end
 
 NS_ASSUME_NONNULL_END
