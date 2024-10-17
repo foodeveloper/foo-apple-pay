@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/FOAppleWallet-Umberlla.h</key>
 		<data>
-		lFeiABygI2UD6QCYb46qqjjKq+4=
+		Bwf7L8JXsgxnvO3q++0TOP88XIU=
 		</data>
 		<key>Headers/FOAppleWallet.h</key>
 		<data>
@@ -19,10 +19,6 @@
 		<key>Headers/FOCard.h</key>
 		<data>
 		LlHbBprJs5K4BlDEa33fsww343o=
-		</data>
-		<key>Headers/FOInAppJWE.h</key>
-		<data>
-		XzkEtICIsxjZ06H5fBgNsVApUWI=
 		</data>
 		<key>Headers/FOInAppProtocol.h</key>
 		<data>
@@ -75,6 +71,10 @@
 		<key>PrivateHeaders/FOInAppEncryption.h</key>
 		<data>
 		JQv9lB7F0W+71XN29R2oAJY0Ifw=
+		</data>
+		<key>PrivateHeaders/FOInAppJWE.h</key>
+		<data>
+		XzkEtICIsxjZ06H5fBgNsVApUWI=
 		</data>
 		<key>PrivateHeaders/FOInAppJsonHelper.h</key>
 		<data>
@@ -139,7 +139,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CX5LbU9cMwr0x0VPCb96kbAvh3HXDo7LSyOBXWghhak=
+			xOyylmzHPjhTqyzEHQQIYPsi6H2wR1XNsEvYaGt+qsA=
 			</data>
 		</dict>
 		<key>Headers/FOAppleWallet.h</key>
@@ -161,13 +161,6 @@
 			<key>hash2</key>
 			<data>
 			5f7qoXVeGRap3XH4gSrBTS2gmbZoyjOjdxrOaUbobeQ=
-			</data>
-		</dict>
-		<key>Headers/FOInAppJWE.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/GutnfjjS79/cRWolwh4OgIXwumAzojjvg3ock3Ane8=
 			</data>
 		</dict>
 		<key>Headers/FOInAppProtocol.h</key>
@@ -252,6 +245,13 @@
 			<key>hash2</key>
 			<data>
 			xCxeL7aziLtclSrVu3vLoJtcH9omh9uRJNFWd5+NrKk=
+			</data>
+		</dict>
+		<key>PrivateHeaders/FOInAppJWE.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/GutnfjjS79/cRWolwh4OgIXwumAzojjvg3ock3Ane8=
 			</data>
 		</dict>
 		<key>PrivateHeaders/FOInAppJsonHelper.h</key>
