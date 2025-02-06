@@ -10,6 +10,7 @@
 #import <PassKit/PassKit.h>
 #import "FOInAppProtocol.h"
 #import "FOInAppProvCardType.h"
+#import "FOInAppCardScheme.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -42,13 +43,15 @@ typedef enum {
 //A short description of the card.
 @property (strong, nonatomic) NSString *localizedDescription;
 
-- (id)initWithUserId:(nullable NSString *)userId deviceId:(nullable NSString *)deviceId cardId:(NSString *)cardId cardHolderName:(NSString *)cardHolderName cardPANSuffix:(NSString *)cardPANSuffix sessionId:(nullable NSString *)sessionId localizedDescription:(nullable NSString *)localizedDescription;
+@property (nonatomic, assign) FOInAppCardScheme cardScheme;
 
-- (id)initWithUserId:(nullable NSString *)userId deviceId:(nullable NSString *)deviceId cardId:(NSString *)cardId cardHolderName:(NSString *)cardHolderName cardPANSuffix:(NSString *)cardPANSuffix localizedDescription:(nullable NSString *)localizedDescription pan:(NSString *)pan expiryDate:(NSString *)expiryDate;
+- (id)initWithUserId:(nullable NSString *)userId deviceId:(nullable NSString *)deviceId cardId:(NSString *)cardId cardHolderName:(NSString *)cardHolderName cardPANSuffix:(NSString *)cardPANSuffix cardScheme:(FOInAppCardScheme)cardScheme sessionId:(nullable NSString *)sessionId localizedDescription:(nullable NSString *)localizedDescription;
 
-- (id)initWithUserId:(nullable NSString *)userId deviceId:(nullable NSString *)deviceId cardId:(NSString *)cardId fPAN:(NSString *)fPan cardHolderName:(NSString *)cardHolderName cardPANSuffix:(NSString *)cardPANSuffix sessionId:(nullable NSString *)sessionId localizedDescription:(nullable NSString *)localizedDescription;
+- (id)initWithUserId:(nullable NSString *)userId deviceId:(nullable NSString *)deviceId cardId:(NSString *)cardId cardHolderName:(NSString *)cardHolderName cardPANSuffix:(NSString *)cardPANSuffix cardScheme:(FOInAppCardScheme)cardScheme localizedDescription:(nullable NSString *)localizedDescription pan:(NSString *)pan expiryDate:(NSString *)expiryDate;
 
-- (id)initWithUserId:(nullable NSString *)userId deviceId:(nullable NSString *)deviceId cardId:(NSString *)cardId fPAN:(NSString *)fPan cardHolderName:(NSString *)cardHolderName cardPANSuffix:(NSString *)cardPANSuffix localizedDescription:(nullable NSString *)localizedDescription pan:(NSString *)pan expiryDate:(NSString *)expiryDate;
+- (id)initWithUserId:(nullable NSString *)userId deviceId:(nullable NSString *)deviceId cardId:(NSString *)cardId fPAN:(NSString *)fPan cardHolderName:(NSString *)cardHolderName cardPANSuffix:(NSString *)cardPANSuffix sessionId:(nullable NSString *)sessionId cardScheme:(FOInAppCardScheme)cardScheme localizedDescription:(nullable NSString *)localizedDescription;
+
+- (id)initWithUserId:(nullable NSString *)userId deviceId:(nullable NSString *)deviceId cardId:(NSString *)cardId fPAN:(NSString *)fPan cardHolderName:(NSString *)cardHolderName cardPANSuffix:(NSString *)cardPANSuffix localizedDescription:(nullable NSString *)localizedDescription pan:(NSString *)pan expiryDate:(NSString *)expiryDate cardScheme:(FOInAppCardScheme)cardScheme;
 
 - (void)addCardToAppleWalletFromViewController:(UIViewController *)viewController delegate:(id <FOInAppProtocol>)delegate;
 - (FOInAppProvCardType)getCardType;

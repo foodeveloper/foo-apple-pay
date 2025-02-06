@@ -12,3 +12,4 @@
 #import "FOInAppProvisioning.h"
 #import "FOInAppVerificationCard.h"
 #import "PKPaymentPassHelper.h"
+#import "FOInAppCardScheme.h"

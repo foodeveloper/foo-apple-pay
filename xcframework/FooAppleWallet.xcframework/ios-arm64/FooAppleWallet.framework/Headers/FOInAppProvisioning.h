@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <PassKit/PassKit.h>
 #import "FOInAppProtocol.h"
+#import "FOInAppCardScheme.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -27,13 +28,13 @@ NS_ASSUME_NONNULL_BEGIN
 + (nullable PKPass*)getLocalPassWithCardSuffix:(NSString *)cardSuffix;
 + (nullable PKPaymentPass*)getRemotePassWithCardSuffix:(NSString *)cardSuffix;
 
-+ (void)addCardForUserId:(nullable NSString *)userId deviceId:(nullable NSString *)deviceId cardId:(NSString *)cardId cardHolderName:(NSString *)cardHolderName cardPanSuffix:(NSString *)cardPanSuffix sessionId:(nullable NSString *)sessionId localizedDescription:(nullable NSString *)localizedDescription inViewController:(UIViewController *)viewController delegate:(id <FOInAppProtocol>)delegate;
++ (void)addCardForUserId:(nullable NSString *)userId deviceId:(nullable NSString *)deviceId cardId:(NSString *)cardId cardHolderName:(NSString *)cardHolderName cardPanSuffix:(NSString *)cardPanSuffix cardScheme:(FOInAppCardScheme)cardScheme sessionId:(nullable NSString *)sessionId localizedDescription:(nullable NSString *)localizedDescription inViewController:(UIViewController *)viewController delegate:(id <FOInAppProtocol>)delegate;
 
-+ (void)addCardForUserId:(nullable NSString *)userId deviceId:(nullable NSString *)deviceId cardId:(NSString *)cardId cardHolderName:(NSString *)cardHolderName cardPanSuffix:(NSString *)cardPanSuffix localizedDescription:(nullable NSString *)localizedDescription pan:(NSString *)pan expiryDate:(NSString *)expiryDate inViewController:(UIViewController *)viewController delegate:(id <FOInAppProtocol>)delegate;
++ (void)addCardForUserId:(nullable NSString *)userId deviceId:(nullable NSString *)deviceId cardId:(NSString *)cardId cardHolderName:(NSString *)cardHolderName cardPanSuffix:(NSString *)cardPanSuffix localizedDescription:(nullable NSString *)localizedDescription pan:(NSString *)pan expiryDate:(NSString *)expiryDate cardScheme:(FOInAppCardScheme)cardScheme inViewController:(UIViewController *)viewController delegate:(id <FOInAppProtocol>)delegate;
 
-+ (void)addCardForUserId:(nullable NSString *)userId deviceId:(nullable NSString *)deviceId cardId:(NSString *)cardId fPAN:(nullable NSString *)fPan cardHolderName:(NSString *)cardHolderName cardPanSuffix:(NSString *)cardPanSuffix sessionId:(nullable NSString *)sessionId localizedDescription:(nullable NSString *)localizedDescription inViewController:(UIViewController *)viewController delegate:(id <FOInAppProtocol>)delegate;
++ (void)addCardForUserId:(nullable NSString *)userId deviceId:(nullable NSString *)deviceId cardId:(NSString *)cardId fPAN:(nullable NSString *)fPan cardHolderName:(NSString *)cardHolderName cardPanSuffix:(NSString *)cardPanSuffix sessionId:(nullable NSString *)sessionId cardScheme:(FOInAppCardScheme)cardScheme localizedDescription:(nullable NSString *)localizedDescription inViewController:(UIViewController *)viewController delegate:(id <FOInAppProtocol>)delegate;
 
-+ (void)addCardForUserId:(nullable NSString *)userId deviceId:(nullable NSString *)deviceId cardId:(NSString *)cardId fPAN:(nullable NSString *)fPan cardHolderName:(NSString *)cardHolderName cardPanSuffix:(NSString *)cardPanSuffix localizedDescription:(nullable NSString *)localizedDescription pan:(NSString *)pan expiryDate:(NSString *)expiryDate inViewController:(UIViewController *)viewController delegate:(id <FOInAppProtocol>)delegate;
++ (void)addCardForUserId:(nullable NSString *)userId deviceId:(nullable NSString *)deviceId cardId:(NSString *)cardId fPAN:(nullable NSString *)fPan cardHolderName:(NSString *)cardHolderName cardPanSuffix:(NSString *)cardPanSuffix localizedDescription:(nullable NSString *)localizedDescription pan:(NSString *)pan expiryDate:(NSString *)expiryDate cardScheme:(FOInAppCardScheme)cardScheme inViewController:(UIViewController *)viewController delegate:(id <FOInAppProtocol>)delegate;
 
 @end
 
