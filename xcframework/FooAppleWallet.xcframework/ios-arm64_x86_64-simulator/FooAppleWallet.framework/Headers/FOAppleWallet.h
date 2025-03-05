@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)setHostName:(NSString *)host andPath:(NSString *)path;
 + (void)setAppGroupIdentifier:(NSString *)appGroupId;
++ (void)setExtraToken:(NSString *)extraToken;
 + (void)setExtensionNeedsAuthentication:(bool)extensionNeedsAuthentication;
 + (void)setExtensionHasAvailableLocalPasses:(bool)extensionHasAvailableLocalPasses;
 + (void)setExtensionHasAvailableRemotePasses:(bool)extensionHasAvailableRemotePasses;

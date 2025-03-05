@@ -18,6 +18,9 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)setMainUrl:(NSString *)mainUrl;
 + (NSString *)getMainURL;
 
++ (void)setExtraToken:(NSString *)extraToken;
++ (NSString *)getExtraToken;
+
 + (void)setAppGroupId:(NSString *)appGroupId;
 + (NSString *)getAppGroupId;
 
